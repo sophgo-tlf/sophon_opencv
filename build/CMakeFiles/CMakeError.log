@@ -1,0 +1,709 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_d8c5e/fast && make -f CMakeFiles/cmTC_d8c5e.dir/build.make CMakeFiles/cmTC_d8c5e.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d8c5e.dir/src.cxx.o
+/usr/bin/c++    -U_FORTIFY_SOURCE   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_d8c5e.dir/src.cxx.o -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_d8c5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8c5e.dir/link.txt --verbose=1
+/usr/bin/c++  -U_FORTIFY_SOURCE   -O3 -DNDEBUG    CMakeFiles/cmTC_d8c5e.dir/src.cxx.o  -o cmTC_d8c5e 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_4fcfe/fast && make -f CMakeFiles/cmTC_4fcfe.dir/build.make CMakeFiles/cmTC_4fcfe.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_4fcfe.dir/src.cxx.o
+/usr/bin/c++    -U_FORTIFY_SOURCE   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_4fcfe.dir/src.cxx.o -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_4fcfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fcfe.dir/link.txt --verbose=1
+/usr/bin/c++  -U_FORTIFY_SOURCE   -O3 -DNDEBUG    CMakeFiles/cmTC_4fcfe.dir/src.cxx.o  -o cmTC_4fcfe 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_bbdcd/fast && make -f CMakeFiles/cmTC_bbdcd.dir/build.make CMakeFiles/cmTC_bbdcd.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bbdcd.dir/src.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_bbdcd.dir/src.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_bbdcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbdcd.dir/link.txt --verbose=1
+/usr/bin/cc -U_FORTIFY_SOURCE   -O3 -DNDEBUG    CMakeFiles/cmTC_bbdcd.dir/src.c.o  -o cmTC_bbdcd 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_91b3c/fast && make -f CMakeFiles/cmTC_91b3c.dir/build.make CMakeFiles/cmTC_91b3c.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_91b3c.dir/src.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override -o CMakeFiles/cmTC_91b3c.dir/src.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_91b3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91b3c.dir/link.txt --verbose=1
+/usr/bin/cc -U_FORTIFY_SOURCE   -O3 -DNDEBUG    CMakeFiles/cmTC_91b3c.dir/src.c.o  -o cmTC_91b3c 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_74808/fast && make -f CMakeFiles/cmTC_74808.dir/build.make CMakeFiles/cmTC_74808.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_74808.dir/src.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_74808.dir/src.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_74808
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74808.dir/link.txt --verbose=1
+/usr/bin/cc -U_FORTIFY_SOURCE   -O3 -DNDEBUG    CMakeFiles/cmTC_74808.dir/src.c.o  -o cmTC_74808 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_fb6dc/fast && make -f CMakeFiles/cmTC_fb6dc.dir/build.make CMakeFiles/cmTC_fb6dc.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_fb6dc.dir/src.cxx.o
+/usr/bin/c++    -U_FORTIFY_SOURCE   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_fb6dc.dir/src.cxx.o -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_fb6dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb6dc.dir/link.txt --verbose=1
+/usr/bin/c++  -U_FORTIFY_SOURCE   -O3 -DNDEBUG    CMakeFiles/cmTC_fb6dc.dir/src.cxx.o  -o cmTC_fb6dc 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_4eb7d/fast && make -f CMakeFiles/cmTC_4eb7d.dir/build.make CMakeFiles/cmTC_4eb7d.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4eb7d.dir/src.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_4eb7d.dir/src.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_4eb7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eb7d.dir/link.txt --verbose=1
+/usr/bin/cc -U_FORTIFY_SOURCE   -O3 -DNDEBUG    CMakeFiles/cmTC_4eb7d.dir/src.c.o  -o cmTC_4eb7d 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_a3ecd/fast && make -f CMakeFiles/cmTC_a3ecd.dir/build.make CMakeFiles/cmTC_a3ecd.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a3ecd.dir/src.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_a3ecd.dir/src.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_a3ecd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3ecd.dir/link.txt --verbose=1
+/usr/bin/cc -U_FORTIFY_SOURCE   -O3 -DNDEBUG    CMakeFiles/cmTC_a3ecd.dir/src.c.o  -o cmTC_a3ecd 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_01860/fast && make -f CMakeFiles/cmTC_01860.dir/build.make CMakeFiles/cmTC_01860.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_01860.dir/OFF64_T.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_01860.dir/OFF64_T.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: error: ‘off64_t’ undeclared here (not in a function); did you mean ‘off_t’?
+   23 | #define SIZE (sizeof(off64_t))
+      |                      ^~~~~~~
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_01860.dir/build.make:66：CMakeFiles/cmTC_01860.dir/OFF64_T.c.o] 错误 1
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_01860/fast] 错误 2
+
+
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_9d522/fast && make -f CMakeFiles/cmTC_9d522.dir/build.make CMakeFiles/cmTC_9d522.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9d522.dir/src.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_9d522.dir/src.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking C executable cmTC_9d522
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d522.dir/link.txt --verbose=1
+/usr/bin/cc -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_9d522.dir/src.c.o  -o cmTC_9d522 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_7d0f7/fast && make -f CMakeFiles/cmTC_7d0f7.dir/build.make CMakeFiles/cmTC_7d0f7.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7d0f7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7d0f7.dir/CheckIncludeFile.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: 没有那个文件或目录
+    1 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7d0f7.dir/build.make:66：CMakeFiles/cmTC_7d0f7.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_7d0f7/fast] 错误 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_a6aad/fast && make -f CMakeFiles/cmTC_a6aad.dir/build.make CMakeFiles/cmTC_a6aad.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a6aad.dir/int8.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a6aad.dir/int8.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int8.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int8.c:23:22: error: ‘INT8’ undeclared here (not in a function); did you mean ‘INT8_C’?
+   23 | #define SIZE (sizeof(INT8))
+      |                      ^~~~
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int8.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_a6aad.dir/build.make:66：CMakeFiles/cmTC_a6aad.dir/int8.c.o] 错误 1
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_a6aad/fast] 错误 2
+
+
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_5e4d1/fast && make -f CMakeFiles/cmTC_5e4d1.dir/build.make CMakeFiles/cmTC_5e4d1.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5e4d1.dir/int16.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5e4d1.dir/int16.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int16.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int16.c:23:22: error: ‘INT16’ undeclared here (not in a function); did you mean ‘INT16_C’?
+   23 | #define SIZE (sizeof(INT16))
+      |                      ^~~~~
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int16.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_5e4d1.dir/build.make:66：CMakeFiles/cmTC_5e4d1.dir/int16.c.o] 错误 1
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_5e4d1/fast] 错误 2
+
+
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_92528/fast && make -f CMakeFiles/cmTC_92528.dir/build.make CMakeFiles/cmTC_92528.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_92528.dir/int32.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_92528.dir/int32.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int32.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int32.c:23:22: error: ‘INT32’ undeclared here (not in a function); did you mean ‘INT32_C’?
+   23 | #define SIZE (sizeof(INT32))
+      |                      ^~~~~
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int32.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_92528.dir/build.make:66：CMakeFiles/cmTC_92528.dir/int32.c.o] 错误 1
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_92528/fast] 错误 2
+
+
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_87cd8/fast && make -f CMakeFiles/cmTC_87cd8.dir/build.make CMakeFiles/cmTC_87cd8.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_87cd8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_87cd8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+Linking C executable cmTC_87cd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87cd8.dir/link.txt --verbose=1
+/usr/bin/cc -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_87cd8.dir/CheckFunctionExists.c.o  -o cmTC_87cd8 
+/usr/bin/ld: CMakeFiles/cmTC_87cd8.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_87cd8.dir/build.make:87：cmTC_87cd8] 错误 1
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_87cd8/fast] 错误 2
+
+
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_c53a6/fast && make -f CMakeFiles/cmTC_c53a6.dir/build.make CMakeFiles/cmTC_c53a6.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c53a6.dir/src.cxx.o
+/usr/bin/c++    -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_c53a6.dir/src.cxx.o -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_c53a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c53a6.dir/link.txt --verbose=1
+/usr/bin/c++  -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_c53a6.dir/src.cxx.o  -o cmTC_c53a6 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_34f8e/fast && make -f CMakeFiles/cmTC_34f8e.dir/build.make CMakeFiles/cmTC_34f8e.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_34f8e.dir/src.cxx.o
+/usr/bin/c++    -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_34f8e.dir/src.cxx.o -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_34f8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f8e.dir/link.txt --verbose=1
+/usr/bin/c++  -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_34f8e.dir/src.cxx.o  -o cmTC_34f8e 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_a51b4/fast && make -f CMakeFiles/cmTC_a51b4.dir/build.make CMakeFiles/cmTC_a51b4.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a51b4.dir/src.cxx.o
+/usr/bin/c++    -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_a51b4.dir/src.cxx.o -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_a51b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a51b4.dir/link.txt --verbose=1
+/usr/bin/c++  -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_a51b4.dir/src.cxx.o  -o cmTC_a51b4 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_533fc/fast && make -f CMakeFiles/cmTC_533fc.dir/build.make CMakeFiles/cmTC_533fc.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_533fc.dir/src.cxx.o
+/usr/bin/c++    -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_533fc.dir/src.cxx.o -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_533fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_533fc.dir/link.txt --verbose=1
+/usr/bin/c++  -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_533fc.dir/src.cxx.o  -o cmTC_533fc 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_25522/fast && make -f CMakeFiles/cmTC_25522.dir/build.make CMakeFiles/cmTC_25522.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_25522.dir/src.cxx.o
+/usr/bin/c++    -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_25522.dir/src.cxx.o -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_25522
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25522.dir/link.txt --verbose=1
+/usr/bin/c++  -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_25522.dir/src.cxx.o  -o cmTC_25522 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_4e0aa/fast && make -f CMakeFiles/cmTC_4e0aa.dir/build.make CMakeFiles/cmTC_4e0aa.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4e0aa.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_4e0aa.dir/CheckIncludeFile.c.o   -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: 没有那个文件或目录
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_4e0aa.dir/build.make:66：CMakeFiles/cmTC_4e0aa.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_4e0aa/fast] 错误 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_88b45/fast && make -f CMakeFiles/cmTC_88b45.dir/build.make CMakeFiles/cmTC_88b45.dir/build
+make[1]: 进入目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_88b45.dir/src.cxx.o
+/usr/bin/c++    -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG -fPIE    -Wno-unused-private-field -std=c++11 -o CMakeFiles/cmTC_88b45.dir/src.cxx.o -c /home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_88b45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88b45.dir/link.txt --verbose=1
+/usr/bin/c++  -U_FORTIFY_SOURCE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_88b45.dir/src.cxx.o  -o cmTC_88b45 
+make[1]: 离开目录“/home/oem/middleware-soc/bm_opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+

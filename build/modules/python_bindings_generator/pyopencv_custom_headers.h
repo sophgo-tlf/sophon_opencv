@@ -1,0 +1,10 @@
+//user-defined headers
+#include "/home/oem/middleware-soc/bm_opencv/modules/core/misc/python/pyopencv_cuda.hpp"
+#include "/home/oem/middleware-soc/bm_opencv/modules/core/misc/python/pyopencv_umat.hpp"
+#include "/home/oem/middleware-soc/bm_opencv/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "/home/oem/middleware-soc/bm_opencv/modules/ml/misc/python/pyopencv_ml.hpp"
+#include "/home/oem/middleware-soc/bm_opencv/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "/home/oem/middleware-soc/bm_opencv/modules/videoio/misc/python/pyopencv_videoio.hpp"
+#include "/home/oem/middleware-soc/bm_opencv/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "/home/oem/middleware-soc/bm_opencv/modules/objdetect/misc/python/pyopencv_objdetect.hpp"
+#include "/home/oem/middleware-soc/bm_opencv/modules/stitching/misc/python/pyopencv_stitching.hpp"

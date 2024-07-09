@@ -1,0 +1,48 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/oem/middleware-soc/bm_opencv/modules/freetype/include/opencv2/freetype.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_freetype",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/oem/middleware-soc/bm_opencv/modules/freetype/src/freetype.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_freetype",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/oem/middleware-soc/bm_opencv/modules/freetype/src/precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_freetype",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/oem/middleware-soc/bm_opencv/build/cvconfig.h"
+		},
+		{
+			"file" : "/home/oem/middleware-soc/bm_opencv/build/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_freetype",
+			"Module"
+		],
+		"name" : "opencv_freetype"
+	}
+}
